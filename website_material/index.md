@@ -129,7 +129,7 @@ description: This model was developed in order to study groundwater flow on a co
   groundwater management policies
 images:
   landing_image:
-    src: ''
+    src: ./graphics/fig1.png
     caption: ''
   graphic_abstract:
     src: ./graphics/fig1.png
@@ -171,7 +171,7 @@ model_files:
     HL06 was used to take the maximum a posteriori model and run it at high resolution.
   file_tree: ''
   existing_identifier: https://github.com/brmather/Sydney_Basin/tree/master
-  nci_file_path: 
+  nci_file_path:
     https://dapds00.nci.org.au/thredds/catalog/nm08/MATE/mather-2022-groundwater/catalog.html
   include: true
 dataset:
@@ -181,7 +181,7 @@ dataset:
     format\r\n.npz - data on numpy binary format\r\n.png - image files\r\n.pvsm -
     Paraview state files\r\n.txt - data in .txt format"
   existing_identifier: ''
-  nci_file_path: 
+  nci_file_path:
     https://dapds00.nci.org.au/thredds/catalog/nm08/MATE/mather-2022-groundwater/catalog.html
   include: true
 metadataFile: ro-crate-metadata.json
