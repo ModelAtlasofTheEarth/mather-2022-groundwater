@@ -1,1 +1,38 @@
-
+cff-version: 1.2.0
+message: If you use this model, please cite it as below.
+authors:
+- family-names: Mather
+  given-names: Ben
+  orcid: https://orcid.org/0000-0003-3566-1557
+- family-names: "M\xFCller"
+  given-names:
+  - R. Dietmar
+  - Dietmar
+  orcid: https://orcid.org/0000-0002-3334-5764
+- family-names:
+  - "O\u2019Neill"
+  - O'Neill
+  given-names: Craig
+  orcid: https://orcid.org/0000-0002-6034-1881
+- family-names: Beall
+  given-names: Adam
+  orcid: https://orcid.org/0000-0002-7182-1864
+- family-names: Vervoort
+  given-names:
+  - R. Willem
+  - R.Willem
+  orcid: https://orcid.org/0000-0002-6557-0237
+- family-names: Moresi
+  given-names:
+  - Louis
+  - Louis-Noel
+  orcid: https://orcid.org/0000-0003-3685-174X
+title: Constraining the response of continental-scale groundwater flow to climate
+  change
+version: ''
+doi: https://doi.org/10.25914/10.25914/t2mn-bk81
+date-released: '2024-05-20'
+url:
+- https://mate.science/models/mather-2022-groundwater/
+- https://github.com/ModelAtlasofTheEarth/mather-2022-groundwater/
+type: dataset
