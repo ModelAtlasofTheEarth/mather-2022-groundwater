@@ -8,7 +8,7 @@ featuredpost:
 for_codes:
   - 370401
 status:
-doi: https://doi.org/10.25914/10.25914/t2mn-bk81
+doi: https://doi.org/10.25914/t2mn-bk81
 url: ''
 creditText: Mather, B., Müller, R. Dietmar., ['O’Neill', "O'Neill"], C., Beall, A.,
   Vervoort, R. Willem., & Moresi, Louis. (2024). Constraining the response of continental-scale
@@ -172,7 +172,7 @@ model_files:
   file_tree: ''
   existing_identifier: https://github.com/brmather/Sydney_Basin/tree/master
   nci_file_path:
-    https://dapds00.nci.org.au/thredds/catalog/nm08/MATE/mather-2022-groundwater/catalog.html
+    https://thredds.nci.org.au/thredds/catalog/nm08/MATE/mather-2022-groundwater/catalog.html
   include: true
 dataset:
   url: ''
@@ -182,7 +182,7 @@ dataset:
     Paraview state files\r\n.txt - data in .txt format"
   existing_identifier: ''
   nci_file_path:
-    https://dapds00.nci.org.au/thredds/catalog/nm08/MATE/mather-2022-groundwater/catalog.html
+    https://thredds.nci.org.au/thredds/catalog/nm08/MATE/mather-2022-groundwater/catalog.html
   include: true
 metadataFile: ro-crate-metadata.json
 ---
