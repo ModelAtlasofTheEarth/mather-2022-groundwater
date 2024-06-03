@@ -10,14 +10,14 @@ for_codes:
 status:
 doi: https://doi.org/10.25914/t2mn-bk81
 url: https://mate.science/models/mather-2022-groundwater
-creditText: Mather, B., Müller, R. Dietmar., ['O’Neill', "O'Neill"], C., Beall, A.,
+creditText: Mather, B., Müller, R. Dietmar., O'Neill, C., Beall, A.,
   Vervoort, R. Willem., & Moresi, Louis. (2024). Constraining the response of continental-scale
   groundwater flow to climate change [Data set]. AuScope, National Computational Infrastructure.
-  https://doi.org/t2mn-bk81
+  https://doi.org/10.25914/t2mn-bk81
 software:
-  - name: 'Underworld2: Python Geodynamics Modelling for Desktop, HPC and Cloud'
-    doi: https://doi.org/10.5281/zenodo.7455999
-    url_source: https://github.com/underworldcode/underworld2
+  name: 'Underworld2: Python Geodynamics Modelling for Desktop, HPC and Cloud'
+  doi: https://doi.org/10.5281/zenodo.7455999
+  url_source: https://github.com/underworldcode/underworld2
 licence:
   licence_url: https://creativecommons.org/licenses/by/4.0/legalcode
   licence_image: ../../../img/licence/by.png
@@ -47,32 +47,25 @@ creators:
     family_name: Moresi
     ORCID: 0000-0003-3685-174X
 associated_publication:
-  authors:
-    - '@type': Person
-      givenName: Ben
-      familyName: Mather
-    - '@type': Person
-      givenName: R. Dietmar
-      familyName: Müller
-    - '@type': Person
-      givenName: Craig
-      familyName: O’Neill
-    - '@type': Person
-      givenName: Adam
-      familyName: Beall
-    - '@type': Person
-      givenName: R. Willem
-      familyName: Vervoort
-    - '@type': Person
-      givenName: Louis
-      familyName: Moresi
-  title: Constraining the response of continental-scale groundwater flow to climate
-    change
-  doi: http://dx.doi.org/10.1038/s41598-022-08384-w
-  url: ''
-  journal: Scientific Reports
+  title: Constraining the response of continental-scale groundwater flow to climate change
+  url: http://dx.doi.org/10.1038/s41598-022-08384-w
+  doi: 10.1038/s41598-022-08384-w
   publisher: Springer Science and Business Media LLC
+  journal: Scientific Reports
   date: 2022-3-16
+  authors:
+    - name: Ben
+      family_name: Mather
+    - name: R. Dietmar
+      family_name: Müller
+    - name: Craig
+      family_name: O’Neill
+    - name: Adam
+      family_name: Beall
+    - name: R. Willem
+      family_name: Vervoort
+    - name: Louis
+      family_name: Moresi
 compute_info:
   name: National Computational Infrastructure
   organisation: ''
@@ -84,10 +77,6 @@ research_tags:
   - Bayesian
   - water-management
   - Python
-  - C
-  - finite element
-  - heat equation
-  - advection-diffusion
 compute_tags:
   - Python
   - C
@@ -146,8 +135,8 @@ images:
       of layers has been exaggerated for visual clarity. The model of the basin was
       rendered in 3D using Underworld.
 animation:
-  src: ./graphics/
-  caption: ''
+  src:
+  caption:
 model_setup_info:
   url: ''
   summary: In this paper, we apply our numerical framework to the  Sydney–Gunnedah–Bowen
